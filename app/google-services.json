@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "408110051428",
+    "firebase_url": "https://wyaairlinesales.firebaseio.com",
+    "project_id": "wyaairlinesales",
+    "storage_bucket": "wyaairlinesales.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408110051428:android:e45789ea1deaa256",
+        "android_client_info": {
+          "package_name": "com.ccs.bankebihari.wycairlinesales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408110051428-ued2ju9a67vfphkskonvnqiq899igi5e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "408110051428-ued2ju9a67vfphkskonvnqiq899igi5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZBS72-cNCCvPt-4p1Jh4XK3YdxvX_PdE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408110051428:android:2e5d759fb501d11e",
+        "android_client_info": {
+          "package_name": "com.ccs.ccs81.wyc_aw_ledger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408110051428-ued2ju9a67vfphkskonvnqiq899igi5e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "408110051428-ued2ju9a67vfphkskonvnqiq899igi5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZBS72-cNCCvPt-4p1Jh4XK3YdxvX_PdE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

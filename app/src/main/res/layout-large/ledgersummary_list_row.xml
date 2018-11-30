@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="1dp">
+
+    <TextView
+        android:id="@+id/tv_vouchertype"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/year"
+        android:textStyle="bold"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_vouchernumber"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/year"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_voucherdate"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/year"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_debitamount"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"/>
+
+
+    <TextView
+        android:id="@+id/tv_creditamount"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Total"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"/>
+</LinearLayout>

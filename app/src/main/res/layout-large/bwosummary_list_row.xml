@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="1dp">
+
+    <TextView
+        android:id="@+id/tv_billno"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/year"
+        android:textStyle="bold"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_billdate"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/year"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_noofdays"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/year"
+        android:gravity="center"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_billamnt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_amntrec"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"/>
+
+
+    <TextView
+        android:id="@+id/tv_cnamnt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Total"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_billdue"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Total"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Total"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_passenger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="left"
+        android:text="Total"
+        android:textColor="@color/year"
+        android:textSize="@dimen/report_text_size"/>
+
+</LinearLayout>
